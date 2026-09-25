@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Peer Buddy for collaboration, publications, partnership, and educational programs." />
+  <title>Contact | Peer Buddy</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="contact">
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div>Peer support • Research • Education • Community</div>
+      <div class="topbar-links">
+        <a href="publications.html">Resources</a>
+        <a href="news.html">Activities</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+  <div class="navbar-wrap">
+    <div class="container navbar">
+      <a href="index.html" class="brand" aria-label="Peer Buddy Home">
+        <div class="brand-mark">PB</div>
+        <div><div class="brand-title">Peer Buddy</div><div class="brand-tagline">Grow together • Support each other</div></div>
+      </a>
+      <ul class="nav-menu">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="profile.html">Profile <span class="chev">▼</span></a>
+          <div class="dropdown">
+            <a href="profile.html#about">About Peer Buddy</a>
+            <a href="profile.html#history">History</a>
+            <a href="profile.html#vision">Vision & Mission</a>
+            <a href="profile.html#team">Psychologist / Professional Team</a>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+        <li class="nav-item"><a class="nav-link" href="news.html">News / Activities</a></li>
+        <li class="nav-item"><a class="nav-link" href="organization.html">Organization</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a class="btn btn-primary" href="contact.html" aria-current="page">Get in Touch</a>
+        <button class="btn btn-outline mobile-toggle" id="mobileToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+    <div class="mobile-panel" id="mobilePanel">
+      <a href="index.html">Home</a>
+      <small>Profile</small>
+      <a href="profile.html#about">About Peer Buddy</a>
+      <a href="profile.html#history">History</a>
+      <a href="profile.html#vision">Vision & Mission</a>
+      <a href="profile.html#team">Professional Team</a>
+      <a href="publications.html">Publications</a>
+      <a href="news.html">News / Activities</a>
+      <a href="organization.html">Organization Structure</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <main>
+    <section class="page-hero contact-hero">
+      <div class="container" data-reveal>
+        <div class="eyebrow">Contact & Collaboration</div>
+        <h1>Let’s build something meaningful together.</h1>
+        <p>Gunakan halaman ini untuk menghubungi Peer Buddy terkait partnership, kegiatan komunitas, kontribusi publikasi, research & education, atau kolaborasi program.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container contact-grid">
+        <div class="contact-info" data-reveal>
+          <div class="eyebrow">Get in touch</div>
+          <h2>Tell us what you would like to collaborate on.</h2>
+          <p>Form di samping akan menyiapkan email dengan isi pesan Anda. Pada prototype lokal, pengiriman email tetap menggunakan aplikasi email yang terpasang di perangkat.</p>
+          <div class="contact-list">
+            <div><strong>Email</strong><span>hello@peerbuddy.org</span></div>
+            <div><strong>Instagram</strong><span>@peerbuddy</span></div>
+            <div><strong>Location</strong><span>Yogyakarta, Indonesia</span></div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" data-reveal>
+          <div class="form-row">
+            <label for="contactName">Name</label>
+            <input id="contactName" name="name" type="text" autocomplete="name" required placeholder="Your name" />
+          </div>
+          <div class="form-row">
+            <label for="contactEmail">Email</label>
+            <input id="contactEmail" name="email" type="email" autocomplete="email" required placeholder="name@example.com" />
+          </div>
+          <div class="form-row">
+            <label for="contactTopic">Collaboration topic</label>
+            <select id="contactTopic" name="topic" required>
+              <option value="">Choose a topic</option>
+              <option>Partnership</option>
+              <option>Community Program</option>
+              <option>Research & Education</option>
+              <option>Publication Contribution</option>
+              <option>Media & Communication</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="contactMessage">Message</label>
+            <textarea id="contactMessage" name="message" rows="6" required placeholder="Tell us about your idea..."></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Prepare Email</button>
+          <p class="form-note" id="contactStatus" role="status" aria-live="polite">For the prototype, this opens your default email application. A server-side form can be connected later.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand footer-brand"><div class="brand-mark">PB</div><div><div class="brand-title">Peer Buddy</div><div class="brand-tagline">Grow together • Support each other</div></div></a>
+          <p>Ruang kolaboratif untuk peer support, research, education, community activity, dan partnership.</p>
+          <div class="socials"><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="LinkedIn">in</a><a href="#" aria-label="TikTok">TT</a></div>
+        </div>
+        <div><h3>Explore</h3><ul class="footer-links"><li><a href="profile.html#about">About</a></li><li><a href="profile.html#vision">Vision & Mission</a></li><li><a href="profile.html#team">Professional Team</a></li><li><a href="organization.html">Organization</a></li></ul></div>
+        <div><h3>Resources</h3><ul class="footer-links"><li><a href="publications.html">Articles</a></li><li><a href="publications.html">Literature Review</a></li><li><a href="publications.html">Educational Resources</a></li><li><a href="news.html">Activities</a></li></ul></div>
+        <div><h3>Contact</h3><ul class="footer-links"><li><a href="mailto:hello@peerbuddy.org">hello@peerbuddy.org</a></li><li>Instagram: @peerbuddy</li><li>Yogyakarta, Indonesia</li></ul></div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 Peer Buddy. All rights reserved.</span><span>Prototype HTML — ready for content customization.</span></div>
+    </div>
+  </footer>
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+  <script src="script.js" defer></script>
+</body>
+</html>
